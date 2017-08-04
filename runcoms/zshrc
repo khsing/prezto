@@ -5,14 +5,14 @@
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
 
+# put several
+if [[ -f ~/.zextra ]]; then
+  source ~/.zextra
+fi
+
 # Source Prezto.
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
 # Customize to your needs...
-
-# put several
-if [[ -f ~/.zextra ]]; then
-  source ~/.zextra
-fi
