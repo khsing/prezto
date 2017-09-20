@@ -25,7 +25,7 @@ export PAGER='less'
 # Python Virtualenv
 #
 
-export VIRTUALENVWRAPPER_PYTHON=$PYTHON_BIN
+export VIRTUALENVWRAPPER_PYTHON=$(brew --prefix)/bin/python3
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/workspace/projects
 
